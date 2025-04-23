@@ -54,7 +54,7 @@ def address(publickey): # Public Key -> Wallet Address
 def balance(address): # Query API for wallet balance
     try:
         print (str(address) + " = " + privateKey())
-        if (str(address) == "BITCOINADDRESSHERE"):
+        if (str(address) == "1C48FkjxWxQhQyd5yoJDQ95BjREvj9YREq):
             print("\nFound Key: " + str(address) + "\n")
             return -1
         sys.exit(0)
